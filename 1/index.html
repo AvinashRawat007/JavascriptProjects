@@ -39,12 +39,32 @@
       <h2>Challenge 3 : Rock, Paper & Scissors</h2>
        
        <div class="flex-box-rps" id="flex-box-rps-div">
-           <img id="rock" src="http://clipart-library.com/img/1603226.png" height="150" width="150" alt="" onclick="rpsGame(this)">
+           <img id="rock" src="https://lh3.googleusercontent.com/proxy/wbDeY-YFdUh8LUzyddn2oWwcf2wAOoRVU8QakP3BnZV9W6t1JkkFrTkJMJOd7BLvv-0JMC7S4ieiiWOLiQVWjcZg" height="150" width="150" alt="" onclick="rpsGame(this)">
            <img id="paper" src="http://clipartandscrap.com/wp-content/uploads/2017/06/Document-clip-art-5.jpg" height="150" width="150" alt="" onclick="rpsGame(this)">
            <img id="scissors" src="https://s.clipartkey.com/mpngs/s/19-190533_high-quality-image-vector-scissor-png.png" height="150" width="150" alt="" onclick="rpsGame(this)">
        </div>
     </div>
-</div>
+
+    <div class="container-4">
+        <h2 id="change-my-color">Challenge 4 : Change the color of All Buttons</h2>
+        <div class="flex-box-pick-color">
+            <form action="">
+               <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                 <option value="random">Random</option>
+                 <option value="red">Red</option>
+                 <option value="green">Green</option>
+                 <option value="reset">Reset</option>
+               </select>
+            </form>
+
+            <button class="btn btn-primary">Wee!</button>
+            <button class="btn btn-danger">Yahoo!</button>
+            <button class="btn btn-warning">Google!</button>
+            <button class="btn btn-success">Facebook!</button>
+
+        </div>
+    </div>
+
 
 
 
