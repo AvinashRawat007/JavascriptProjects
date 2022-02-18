@@ -1,0 +1,90 @@
+body {
+  margin: 0 auto;
+  background-color: #0b0a0d;
+}
+.upper {
+  overflow: hidden;
+  background: #0b0a0d;
+  height: 60px;
+}
+
+.navbar {
+  background-color: #9b51e0;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(0,0,0,.32);
+}
+
+.album{
+	border:1px solid #111010;
+  padding: 0;
+  margin: 5px;
+}
+
+#myCarousel {
+  height: auto;
+  background-color: #0b0a0d;
+}
+
+.pic {
+  float: right;
+}
+
+.pic1 {
+  width: 100%;
+  height: 280px;
+}
+
+.pic2 {
+  width: 100%;
+  height: auto;
+}
+
+h4 {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 20px;
+  color: whitesmoke;
+}
+
+.dohi{
+  width: 100px;
+  float: left;
+}
+
+p {
+  color: #fff;
+}
+
+em {
+  color: #fff;
+}
+
+.thumbnail {
+  background-color: #0b0a0d;
+  border: none;
+}
+
+.fa-star {
+  color: #fcb900;
+}
+
+.legend {
+  justify-content: center;
+}
+
+.pink {
+  margin: 10px;
+}
